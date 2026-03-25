@@ -1,77 +1,47 @@
-# Active Context: AI Marketing Agent - Otonom Pazarlama Engine'i
+# Active Context: MarketPulse - Pazarlama Ajansı Otomasyon Platformu
 
 ## Current State
 
-**Project Status**: ✅ Tamamlandı - Test Aşamasına Hazır
+**Project Status**: ✅ Tamamlandı - Demo Modunda Çalışıyor
 
-14 AI Agent + Dolap Entegrasyonu + Kapsamlı Dashboard ile tam donanımlı otonom pazarlama sistemi.
+MarketPulse - bir pazarlama ajansı için çok müşterili proje yönetimi, AI içerik üretimi ve reklam kampanyası yönetimi SaaS platformu.
 
 ## Recently Completed (Bu Oturum)
 
-- [x] **14 AI Agent Modülü** - Tüm pazarlama yetenekleri eklendi
-- [x] **Demand Creation Engine** - Ürüne hikâye/talep yaratma
-- [x] **Market Gap Detector** - Piyasa eksiklikleri analizi
-- [x] **Funnel Hacking** - Hook → Güven → Satış sistemi
-- [x] **Multi-Persona Marketing** - Uzman/Influencer/Müşteri sesleri
-- [x] **Predictive Engine** - Gelecek tahmini
-- [x] **Experiment Lab** - A/B test otomasyonu
-- [x] **Goal-Driven Agent** - Kâr hedefli otonom karar
-- [x] **Visual Intelligence** - Fotoğraf kalite analizi
-- [x] **Inbound Engine** - Müşteri çekme sistemi
-- [x] **Sales Brain** - Müşteriyle konuşma/itiraz kırma
-- [x] **Store Optimizer** - Listing optimizasyonu
-- [x] **Decision Engine** - Otomatik karar sistemi
-- [x] **Self-Branding** - Marka kimliği oluşturma
-- [x] **Time Intelligence** - Zaman bazlı strateji
-- [x] **Dolap Entegrasyonu** - E-ticaret platformu bağlantısı
-- [x] **Ürün Yönetimi** - Talep skoru ile birlikte
-- [x] **Müşteri Yönetimi** - VIP, Aktif, Yeni, Risk segmentasyonu
-- [x] **Gelişmiş Analitik** - AI tahmin ve öneriler
+- [x] **Marka Değişikliği**: MarketPulse adı ve tasarımı oluşturuldu
+- [x] **Dashboard (Gösterge)**: 8 menü öğesi ile ana kontrol paneli
+- [x] **Müşteriler**: Ajans müşteri yönetimi
+- [x] **Projeler**: Müşteri proje takibi
+- [x] **İçerik**: AI içerik planlama (blog, sosyal medya, video)
+- [x] **Reklamlar**: Kampanya yönetimi (Instagram, Facebook, Google, TikTok)
+- [x] **AI Araçlar**: 6 demo aracı (İçerik, Görsel, Rakip, Reklam, Yanıt, Trend)
+- [x] **Demo Simulation**: Yamaha Acoustic Guitar ürünü ile AI yetenekleri gösterimi
+- [x] **Silinen Klasörler**: dolap, media, accounts, campaigns, ai-agents (artık kullanılmıyor)
 
 ## Proje Yapısı (Güncel)
 
 | Sayfa | Dosya | Özellikler |
 |-------|-------|------------|
-| Dashboard | `/dashboard` | Tüm agentler, hızlı aksiyonlar, canlı istatistikler |
-| AI Agents | `/dashboard/ai-agents` | 14 agent modülü tek sayfada |
-| Dolap | `/dashboard/dolap` | E-ticaret entegrasyonu, otomasyon |
-| Ürünler | `/dashboard/products` | Talep skoru, stok, gelir takibi |
-| Müşteriler | `/dashboard/customers` - Segmentasyon, özel teklif |
-| Hesaplar | `/dashboard/accounts` | Platform bağlama |
-| İçerik | `/dashboard/content` | AI içerik üretimi |
-| Medya | `/dashboard/media` | Görsel yönetimi |
-| Kampanyalar | `/dashboard/campaigns` | Reklam kampanyaları |
-| Reklamlar | `/dashboard/ads` | Platform reklamları |
-| Analitik | `/dashboard/analytics` | AI tahmin, öneriler |
+| Gösterge | `/dashboard` | Ana dashboard, hızlı aksiyonlar, istatistikler |
+| Müşteriler | `/dashboard/customers` | Ajans müşteri yönetimi |
+| Projeler | `/dashboard/projects` | Müşteri proje takibi |
+| İçerik | `/dashboard/content` | AI içerik planlama |
+| Reklamlar | `/dashboard/ads` | Kampanya yönetimi |
+| Analitik | `/dashboard/analytics` | Performans analizi |
+| AI Araçlar | `/dashboard/ai-tools` | 6 AI aracı demo |
+| Platformlar | `/dashboard/platforms` | Platform bağlantı yönetimi |
 | Ayarlar | `/dashboard/settings` | Konfigürasyon |
 
-## 14 AI Agent Özellikleri
+## 6 AI Araçları (Demo Modu)
 
-### Marketing (6 Agent)
-| Agent | İşlev |
-|-------|-------|
-| Demand Creation | Ürüne trend/konsept yaratma |
-| Market Gap | Rakip analizi, eksiklik bulma |
-| Funnel Hacking | 3 adımlı satış hunisi |
-| Multi-Persona | 3 farklı perspektiften pazarlama |
-| Predictive | gelecek tahmini |
-| Experiment | A/B test yönetimi |
-
-### E-commerce (6 Agent)
-| Agent | İşlev |
-|-------|-------|
-| Goal-Driven | Kâr hedefli karar |
-| Visual | Fotoğraf kalite analizi |
-| Inbound | Müşteri çekme |
-| Sales Brain | Müşteri yanıtlama |
-| Store Optimizer | Listing iyileştirme |
-| Decision | Otomatik karar verme |
-
-### Intelligence (2 Agent)
-| Agent | İşlev |
-|-------|-------|
-| Self-Branding | Marka kimliği |
-| Time Intelligence | Zaman bazlı strateji |
+| Araç | İşlev | Durum |
+|------|-------|-------|
+| İçerik Üretici | Blog, sosyal, video script | ✅ Demo |
+| Görsel Üretici | AI görsel önerileri | ✅ Demo |
+| Rakip Analizi | Piyasa analizi | ✅ Demo |
+| Reklam Oluştur | Facebook/Instagram ads | ✅ Demo |
+| Yanıt Asistanı | Müşteri mesajları | ✅ Demo |
+| Trend Takibi | Trend analizi | ✅ Demo |
 
 ## Teknik Özellikler
 
@@ -80,35 +50,34 @@
 - **State Management**: React hooks (useState)
 - **Types**: TypeScript with strict mode
 
-## Otomasyon Özellikleri
+## Önemli Notlar
 
-- Dolap mağaza senkronizasyonu
-- Otomatik fiyat güncelleme (hazır)
-- AI mesaj yanıtlama (hazır)
-- Stok takibi ve uyarılar
-- Trend takibi
+- **Demo Mode**: Platform şu anda demo modunda çalışıyor. Gerçek AI için OpenAI API key gerekli.
+- **Platform Entegrasyonları**: Instagram, Trendyol, Hepsiburada API'leri bağlanabilir (API key ile)
+- **İş Modeli**: Bu bir SaaS ajans aracı - kullanıcı kendi ürünlerini değil, müşterilerinin projelerini yönetiyor
 
 ## Session History
 
 | Tarih | Değişiklik |
 |-------|------------|
-| 2026-03-25 | AI Marketing Agent projesi başlatıldı |
-| 2026-03-25 | 14 AI Agent modülü eklendi |
-| 2026-03-25 | Dolap entegrasyonu eklendi |
-| 2026-03-25 | Ürün ve müşteri yönetimi eklendi |
-| 2026-03-25 | Gelişmiş analitik eklendi |
+| 2026-03-25 | MarketPulse projesi başlatıldı |
+| 2026-03-25 | Dashboard ve 8 menü oluşturuldu |
+| 2026-03-25 | AI Tools 6 demo ile eklendi |
+| 2026-03-25 | Müşteriler, Projeler, İçerik, Reklamlar sayfaları eklendi |
+| 2026-03-25 | Analitik ve Platform sayfaları mevcut (e-ticaret modelinden ajans modeline) |
 
 ## Test Aşaması
 
-Sistem test edilmeye hazır. Çalıştırmak için:
+Sistem demo modunda çalışıyor. Çalıştırmak için:
 ```bash
 bun dev
 ```
 
-## Gelecek Geliştirmeler (Post-Test)
+## Gelecek Geliştirmeler
 
 - [ ] Veritabanı entegrasyonu (Drizzle + SQLite)
-- [ ] Gerçek API entegrasyonları (OpenAI, Dolap API)
+- [ ] Gerçek OpenAI API entegrasyonu
+- [ ] Gerçek sosyal medya API'leri
 - [ ] Real-time notifications
 - [ ] Raporlama sistemi (PDF export)
 - [ ] Çoklu kullanıcı desteği
