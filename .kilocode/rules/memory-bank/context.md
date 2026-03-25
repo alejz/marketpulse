@@ -1,64 +1,114 @@
-# Active Context: AI Marketing Agent
+# Active Context: AI Marketing Agent - Otonom Pazarlama Engine'i
 
 ## Current State
 
-**Project Status**: ✅ Tamamlandı
+**Project Status**: ✅ Tamamlandı - Test Aşamasına Hazır
 
-AI Marketing Agent - Otonom sosyal medya yönetim agenti tamamlandı ve kullanıma hazır.
+14 AI Agent + Dolap Entegrasyonu + Kapsamlı Dashboard ile tam donanımlı otonom pazarlama sistemi.
 
-## Recently Completed
+## Recently Completed (Bu Oturum)
 
-- [x] Dashboard ana sayfası - İstatistikler, bağlı hesaplar, son aktiviteler
-- [x] Sosyal medya hesapları yönetimi - Instagram, Twitter, LinkedIn, Facebook, TikTok
-- [x] AI içerik üretimi - Konu/ürün bazlı otomatik içerik oluşturma
-- [x] Medya yönetimi - Fotoğraf/video yükleme ve AI görsel üretimi
-- [x] Kampanya yönetimi - Reklam kampanyaları oluşturma ve takip
-- [x] Reklam yönetimi - Çoklu platform reklam yönetimi (Google, Meta, LinkedIn, TikTok)
-- [x] Agent ayarları - AI konfigürasyonu, otomasyon, API bağlantıları
+- [x] **14 AI Agent Modülü** - Tüm pazarlama yetenekleri eklendi
+- [x] **Demand Creation Engine** - Ürüne hikâye/talep yaratma
+- [x] **Market Gap Detector** - Piyasa eksiklikleri analizi
+- [x] **Funnel Hacking** - Hook → Güven → Satış sistemi
+- [x] **Multi-Persona Marketing** - Uzman/Influencer/Müşteri sesleri
+- [x] **Predictive Engine** - Gelecek tahmini
+- [x] **Experiment Lab** - A/B test otomasyonu
+- [x] **Goal-Driven Agent** - Kâr hedefli otonom karar
+- [x] **Visual Intelligence** - Fotoğraf kalite analizi
+- [x] **Inbound Engine** - Müşteri çekme sistemi
+- [x] **Sales Brain** - Müşteriyle konuşma/itiraz kırma
+- [x] **Store Optimizer** - Listing optimizasyonu
+- [x] **Decision Engine** - Otomatik karar sistemi
+- [x] **Self-Branding** - Marka kimliği oluşturma
+- [x] **Time Intelligence** - Zaman bazlı strateji
+- [x] **Dolap Entegrasyonu** - E-ticaret platformu bağlantısı
+- [x] **Ürün Yönetimi** - Talep skoru ile birlikte
+- [x] **Müşteri Yönetimi** - VIP, Aktif, Yeni, Risk segmentasyonu
+- [x] **Gelişmiş Analitik** - AI tahmin ve öneriler
 
-## Proje Yapısı
+## Proje Yapısı (Güncel)
 
 | Sayfa | Dosya | Özellikler |
 |-------|-------|------------|
-| Dashboard | `/dashboard` | İstatistikler, hesap özeti, agent durumu |
-| Hesaplar | `/dashboard/accounts` | Platform bağlama, otomatik paylaşım |
-| İçerik | `/dashboard/content` | AI ile içerik üretimi, ton seçimi |
-| Medya | `/dashboard/media` | Dosya yükleme, AI görsel üretimi |
-| Kampanyalar | `/dashboard/campaigns` | Kampanya oluşturucu, performans |
-| Reklamlar | `/dashboard/ads` | Platform bazlı reklam yönetimi |
-| Ayarlar | `/dashboard/settings` | AI, otomasyon, API, bildirimler |
+| Dashboard | `/dashboard` | Tüm agentler, hızlı aksiyonlar, canlı istatistikler |
+| AI Agents | `/dashboard/ai-agents` | 14 agent modülü tek sayfada |
+| Dolap | `/dashboard/dolap` | E-ticaret entegrasyonu, otomasyon |
+| Ürünler | `/dashboard/products` | Talep skoru, stok, gelir takibi |
+| Müşteriler | `/dashboard/customers` - Segmentasyon, özel teklif |
+| Hesaplar | `/dashboard/accounts` | Platform bağlama |
+| İçerik | `/dashboard/content` | AI içerik üretimi |
+| Medya | `/dashboard/media` | Görsel yönetimi |
+| Kampanyalar | `/dashboard/campaigns` | Reklam kampanyaları |
+| Reklamlar | `/dashboard/ads` | Platform reklamları |
+| Analitik | `/dashboard/analytics` | AI tahmin, öneriler |
+| Ayarlar | `/dashboard/settings` | Konfigürasyon |
+
+## 14 AI Agent Özellikleri
+
+### Marketing (6 Agent)
+| Agent | İşlev |
+|-------|-------|
+| Demand Creation | Ürüne trend/konsept yaratma |
+| Market Gap | Rakip analizi, eksiklik bulma |
+| Funnel Hacking | 3 adımlı satış hunisi |
+| Multi-Persona | 3 farklı perspektiften pazarlama |
+| Predictive | gelecek tahmini |
+| Experiment | A/B test yönetimi |
+
+### E-commerce (6 Agent)
+| Agent | İşlev |
+|-------|-------|
+| Goal-Driven | Kâr hedefli karar |
+| Visual | Fotoğraf kalite analizi |
+| Inbound | Müşteri çekme |
+| Sales Brain | Müşteri yanıtlama |
+| Store Optimizer | Listing iyileştirme |
+| Decision | Otomatik karar verme |
+
+### Intelligence (2 Agent)
+| Agent | İşlev |
+|-------|-------|
+| Self-Branding | Marka kimliği |
+| Time Intelligence | Zaman bazlı strateji |
 
 ## Teknik Özellikler
 
 - **Framework**: Next.js 16 + React 19
 - **Styling**: Tailwind CSS 4
-- **UI**: Dashboard layout with sidebar navigation
-- **Fonksiyonlar**:
-  - Çoklu sosyal medya platformu desteği
-  - AI destekli içerik üretimi
-  - AI görsel üretimi (DALL-E entegrasyonu hazır)
-  - Otomatik paylaşım sistemi
-  - Kampanya ve reklam yönetimi
-  - API entegrasyonu (OpenAI, Instagram, Google Ads)
+- **State Management**: React hooks (useState)
+- **Types**: TypeScript with strict mode
 
-## Agent Özellikleri
+## Otomasyon Özellikleri
 
-- Otonom içerik üretimi ve paylaşım
-- Çoklu platform yönetimi
-- AI destekli görsel üretimi
-- Otomatik yanıtlama
+- Dolap mağaza senkronizasyonu
+- Otomatik fiyat güncelleme (hazır)
+- AI mesaj yanıtlama (hazır)
+- Stok takibi ve uyarılar
 - Trend takibi
-- Performans raporlama
 
 ## Session History
 
 | Tarih | Değişiklik |
 |-------|------------|
-| 2026-03-25 | AI Marketing Agent projesi oluşturuldu |
+| 2026-03-25 | AI Marketing Agent projesi başlatıldı |
+| 2026-03-25 | 14 AI Agent modülü eklendi |
+| 2026-03-25 | Dolap entegrasyonu eklendi |
+| 2026-03-25 | Ürün ve müşteri yönetimi eklendi |
+| 2026-03-25 | Gelişmiş analitik eklendi |
 
-## Gelecek Geliştirmeler
+## Test Aşaması
 
-- [ ] Veritabanı entegrasyonu (kullanıcı verileri, içerik takibi)
-- [ ] Gerçek API entegrasyonları (Instagram Graph API, Google Ads API)
-- [ ] Daha gelişmiş analytics
-- [ ] Raporlama sistemi
+Sistem test edilmeye hazır. Çalıştırmak için:
+```bash
+bun dev
+```
+
+## Gelecek Geliştirmeler (Post-Test)
+
+- [ ] Veritabanı entegrasyonu (Drizzle + SQLite)
+- [ ] Gerçek API entegrasyonları (OpenAI, Dolap API)
+- [ ] Real-time notifications
+- [ ] Raporlama sistemi (PDF export)
+- [ ] Çoklu kullanıcı desteği

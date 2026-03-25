@@ -3,11 +3,16 @@ import { ReactNode } from 'react'
 
 const navItems = [
   { href: '/dashboard', label: 'Ana Sayfa', icon: '📊' },
+  { href: '/dashboard/ai-agents', label: 'AI Agents', icon: '🧠' },
+  { href: '/dashboard/dolap', label: 'Dolap', icon: '🛍️' },
+  { href: '/dashboard/products', label: 'Ürünler', icon: '📦' },
+  { href: '/dashboard/customers', label: 'Müşteriler', icon: '👥' },
   { href: '/dashboard/accounts', label: 'Hesaplar', icon: '📱' },
   { href: '/dashboard/content', label: 'İçerik', icon: '✍️' },
   { href: '/dashboard/media', label: 'Medya', icon: '🖼️' },
   { href: '/dashboard/campaigns', label: 'Kampanyalar', icon: '🎯' },
   { href: '/dashboard/ads', label: 'Reklamlar', icon: '📢' },
+  { href: '/dashboard/analytics', label: 'Analitik', icon: '📈' },
   { href: '/dashboard/settings', label: 'Ayarlar', icon: '⚙️' },
 ]
 
@@ -16,8 +21,8 @@ export default function DashboardLayout({ children }: { children: ReactNode }) {
     <div className="min-h-screen bg-gray-50">
       <aside className="fixed left-0 top-0 h-full w-64 bg-white border-r border-gray-200 p-4">
         <div className="mb-8">
-          <h1 className="text-xl font-bold text-gray-900">AI Marketing Agent</h1>
-          <p className="text-sm text-gray-500">Otonom Pazarlama</p>
+          <h1 className="text-xl font-bold text-gray-900">🤖 Otonom Pazarlama</h1>
+          <p className="text-sm text-gray-500">AI Marketing Agent</p>
         </div>
         <nav className="space-y-1">
           {navItems.map((item) => (
