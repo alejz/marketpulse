@@ -210,6 +210,21 @@ export default function SettingsPage() {
                 <div className="p-4 border border-gray-200 rounded-lg">
                   <div className="flex items-center justify-between mb-3">
                     <div className="flex items-center gap-3">
+                      <span className="text-2xl">🤗</span>
+                      <div>
+                        <p className="font-medium text-gray-900">Hugging Face API</p>
+                        <p className="text-sm text-gray-500">Ücretsiz AI modelleri için</p>
+                      </div>
+                    </div>
+                    <span className="px-2 py-1 bg-yellow-100 text-yellow-700 text-xs rounded-full">Ayarla</span>
+                  </div>
+                  <p className="text-xs text-gray-500 mb-2">Token: hf_xxxxxxxxxxxxx</p>
+                  <input type="password" placeholder="hf_ ile başlayan token" className="w-full px-3 py-2 bg-gray-50 border border-gray-200 rounded-lg text-sm" />
+                </div>
+
+                <div className="p-4 border border-gray-200 rounded-lg">
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-3">
                       <span className="text-2xl">🔑</span>
                       <div>
                         <p className="font-medium text-gray-900">OpenAI API</p>
