@@ -8,6 +8,7 @@ MarketPulse - bir pazarlama ajansı için çok müşterili proje yönetimi, AI i
 
 ## Recently Completed (Bu Oturum)
 
+- [x] **Veritabanı Eklentisi** - Drizzle ORM + SQLite (7 tablo)
 - [x] **Hugging Face AI Entegrasyonu** - Ücretsiz Llama 3.2 modeli eklendi
 - [x] **API Route** - /api/ai endpoint oluşturuldu
 - [x] **Settings Güncelleme** - Hugging Face token girişi eklendi
