@@ -1,87 +1,64 @@
-# Active Context: Next.js Starter Template
+# Active Context: AI Marketing Agent
 
 ## Current State
 
-**Template Status**: ✅ Ready for development
+**Project Status**: ✅ Tamamlandı
 
-The template is a clean Next.js 16 starter with TypeScript and Tailwind CSS 4. It's ready for AI-assisted expansion to build any type of application.
+AI Marketing Agent - Otonom sosyal medya yönetim agenti tamamlandı ve kullanıma hazır.
 
 ## Recently Completed
 
-- [x] Base Next.js 16 setup with App Router
-- [x] TypeScript configuration with strict mode
-- [x] Tailwind CSS 4 integration
-- [x] ESLint configuration
-- [x] Memory bank documentation
-- [x] Recipe system for common features
+- [x] Dashboard ana sayfası - İstatistikler, bağlı hesaplar, son aktiviteler
+- [x] Sosyal medya hesapları yönetimi - Instagram, Twitter, LinkedIn, Facebook, TikTok
+- [x] AI içerik üretimi - Konu/ürün bazlı otomatik içerik oluşturma
+- [x] Medya yönetimi - Fotoğraf/video yükleme ve AI görsel üretimi
+- [x] Kampanya yönetimi - Reklam kampanyaları oluşturma ve takip
+- [x] Reklam yönetimi - Çoklu platform reklam yönetimi (Google, Meta, LinkedIn, TikTok)
+- [x] Agent ayarları - AI konfigürasyonu, otomasyon, API bağlantıları
 
-## Current Structure
+## Proje Yapısı
 
-| File/Directory | Purpose | Status |
-|----------------|---------|--------|
-| `src/app/page.tsx` | Home page | ✅ Ready |
-| `src/app/layout.tsx` | Root layout | ✅ Ready |
-| `src/app/globals.css` | Global styles | ✅ Ready |
-| `.kilocode/` | AI context & recipes | ✅ Ready |
+| Sayfa | Dosya | Özellikler |
+|-------|-------|------------|
+| Dashboard | `/dashboard` | İstatistikler, hesap özeti, agent durumu |
+| Hesaplar | `/dashboard/accounts` | Platform bağlama, otomatik paylaşım |
+| İçerik | `/dashboard/content` | AI ile içerik üretimi, ton seçimi |
+| Medya | `/dashboard/media` | Dosya yükleme, AI görsel üretimi |
+| Kampanyalar | `/dashboard/campaigns` | Kampanya oluşturucu, performans |
+| Reklamlar | `/dashboard/ads` | Platform bazlı reklam yönetimi |
+| Ayarlar | `/dashboard/settings` | AI, otomasyon, API, bildirimler |
 
-## Current Focus
+## Teknik Özellikler
 
-The template is ready. Next steps depend on user requirements:
+- **Framework**: Next.js 16 + React 19
+- **Styling**: Tailwind CSS 4
+- **UI**: Dashboard layout with sidebar navigation
+- **Fonksiyonlar**:
+  - Çoklu sosyal medya platformu desteği
+  - AI destekli içerik üretimi
+  - AI görsel üretimi (DALL-E entegrasyonu hazır)
+  - Otomatik paylaşım sistemi
+  - Kampanya ve reklam yönetimi
+  - API entegrasyonu (OpenAI, Instagram, Google Ads)
 
-1. What type of application to build
-2. What features are needed
-3. Design/branding preferences
+## Agent Özellikleri
 
-## Quick Start Guide
-
-### To add a new page:
-
-Create a file at `src/app/[route]/page.tsx`:
-```tsx
-export default function NewPage() {
-  return <div>New page content</div>;
-}
-```
-
-### To add components:
-
-Create `src/components/` directory and add components:
-```tsx
-// src/components/ui/Button.tsx
-export function Button({ children }: { children: React.ReactNode }) {
-  return <button className="px-4 py-2 bg-blue-600 text-white rounded">{children}</button>;
-}
-```
-
-### To add a database:
-
-Follow `.kilocode/recipes/add-database.md`
-
-### To add API routes:
-
-Create `src/app/api/[route]/route.ts`:
-```tsx
-import { NextResponse } from "next/server";
-
-export async function GET() {
-  return NextResponse.json({ message: "Hello" });
-}
-```
-
-## Available Recipes
-
-| Recipe | File | Use Case |
-|--------|------|----------|
-| Add Database | `.kilocode/recipes/add-database.md` | Data persistence with Drizzle + SQLite |
-
-## Pending Improvements
-
-- [ ] Add more recipes (auth, email, etc.)
-- [ ] Add example components
-- [ ] Add testing setup recipe
+- Otonom içerik üretimi ve paylaşım
+- Çoklu platform yönetimi
+- AI destekli görsel üretimi
+- Otomatik yanıtlama
+- Trend takibi
+- Performans raporlama
 
 ## Session History
 
-| Date | Changes |
-|------|---------|
-| Initial | Template created with base setup |
+| Tarih | Değişiklik |
+|-------|------------|
+| 2026-03-25 | AI Marketing Agent projesi oluşturuldu |
+
+## Gelecek Geliştirmeler
+
+- [ ] Veritabanı entegrasyonu (kullanıcı verileri, içerik takibi)
+- [ ] Gerçek API entegrasyonları (Instagram Graph API, Google Ads API)
+- [ ] Daha gelişmiş analytics
+- [ ] Raporlama sistemi
