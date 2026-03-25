@@ -3,8 +3,8 @@ import { ReactNode } from 'react'
 
 const navItems = [
   { href: '/dashboard', label: 'Ana Sayfa', icon: '📊' },
+  { href: '/dashboard/platforms', label: 'Platformlar', icon: '🌐' },
   { href: '/dashboard/ai-agents', label: 'AI Agents', icon: '🧠' },
-  { href: '/dashboard/dolap', label: 'Dolap', icon: '🛍️' },
   { href: '/dashboard/products', label: 'Ürünler', icon: '📦' },
   { href: '/dashboard/customers', label: 'Müşteriler', icon: '👥' },
   { href: '/dashboard/accounts', label: 'Hesaplar', icon: '📱' },
